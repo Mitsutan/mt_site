@@ -6,6 +6,7 @@ body{
     background: -moz-linear-gradient(top, #b5baff, #ffb5d8 70%,#5a0045); 
     background: -webkit-linear-gradient(top, #b5baff, #ffb5d8 70%,#5a0045); 
     background: linear-gradient(to bottom,#a1a7ff, #ffa0cc 70%,#5a0045); 
+    font-family: "游ゴシック", "ヒラギノ角ゴ ProN", "MS Pゴシック", sans-serif;
 }
 
 a{
