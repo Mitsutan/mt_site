@@ -24,6 +24,10 @@ footer#end{
     color: gray;
 }
 
+h1{
+    font-size: 30px;
+}
+
 h2{
     text-underline-offset: 0.2em;
     text-decoration-line: underline;
@@ -53,6 +57,7 @@ section.block{
     background-color: #b4b4b431;
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 
 .anime1{
