@@ -1,0 +1,75 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: -moz-linear-gradient(top, #b5baff, #ffb5d8 70%,#5a0045); 
+    background: -webkit-linear-gradient(top, #b5baff, #ffb5d8 70%,#5a0045); 
+    background: linear-gradient(to bottom,#a1a7ff, #ffa0cc 70%,#5a0045); 
+}
+
+a{
+    color: white;
+}
+
+header#top{
+    margin: 0;;
+    text-align: center;
+    color: white;
+}
+
+footer#end{
+    text-align: center;
+    font-size: x-small;
+    color: gray;
+}
+
+h2{
+    text-underline-offset: 0.2em;
+    text-decoration-line: underline;
+}
+
+div#contents{
+    text-align: center;
+    border: 2px solid #f8f8f8ce;
+    padding: 2%;
+}
+
+img#icon{
+    width: 10vmax;
+    border-radius: 90%;
+}
+
+span.list{
+    margin-left: 2%;
+}
+
+section.block{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #f8f8f8ce;
+    background-color: #b4b4b431;
+    color: white;
+    text-align: center;
+}
+
+.anime1{
+    animation-name: fadeIn_up;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+
+@keyframes fadeIn_up {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
