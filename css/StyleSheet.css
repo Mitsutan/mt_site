@@ -12,6 +12,20 @@ body{
 
 a{
     color: white;
+    text-decoration: none;
+}
+
+.index{
+    border-left-style: solid;
+    border-right-style: solid;
+    padding: 1%;
+    margin: 1%;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.index:hover{
+    background-color: #9c9c9c31;
 }
 
 header#top{
@@ -40,11 +54,11 @@ h3{
     font-size: 25px;
 }
 
-div#contents{
+/* div#contents{
     text-align: center;
     border: 2px solid #f8f8f8ce;
     padding: 2%;
-}
+} */
 
 img#icon{
     width: 10vmax;
@@ -61,7 +75,7 @@ section.block{
     margin-left: 10%;
     margin-right: 10%;
     border: 2px solid #f8f8f8ce;
-    background-color: #a8a8a831;
+    background-color: #9c9c9c31;
     color: white;
     text-align: center;
 }
