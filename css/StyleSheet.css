@@ -22,17 +22,22 @@ header#top{
 
 footer#end{
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     color: gray;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h2{
     text-underline-offset: 0.2em;
     text-decoration-line: underline;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
 }
 
 div#contents{
@@ -56,7 +61,7 @@ section.block{
     margin-left: 10%;
     margin-right: 10%;
     border: 2px solid #f8f8f8ce;
-    background-color: #b4b4b431;
+    background-color: #a8a8a831;
     color: white;
     text-align: center;
 }
