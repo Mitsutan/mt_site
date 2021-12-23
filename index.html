@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
@@ -12,21 +12,49 @@
         <header id="top">
             <h1 class="anime1">Welcome!</h1>
             <div id="contents">
-                <a class="index" href="#about">About me</a>
-                <a class="index" href="#creations">Creations</a>
-                <a class="index" href="#contact">Contact</a>
+                <a class="index" onclick="jumpTo('about')">About me</a><br />
+                <a class="index" onclick="jumpTo('skills')">Skills</a><br />
+                <a class="index" onclick="jumpTo('creations')">Creations</a><br />
+                <a class="index" onclick="jumpTo('contact')">Contact</a>
             </div>
         </header>
         <div id="articles">
             <section class="block" id="about">
                 <h2>About me</h2>
-                <img id="icon" alt="icon:Mitsutan" src="image/Mitsutan.jpeg"><br />
+                <img id="icon" alt="Mitsutan" src="image/Mitsutan.jpeg"><br />
                 <h3>Mitsutan</h3>
                 <i class="fas fa-birthday-cake"></i><span class="list">2002/08/20</span><br />
                 <i class="fas fa-map-marker-alt"></i><span class="list">Fukuoka, JP</span>
                 <p>
                     色々なことに手を出しては、投げ出している専門学校生。<br />
                     このサイトもその一環。
+                </p>
+                <p>
+                    高校時代は放送部に所属し、主に動画編集をしていました。<br />
+                    一応、朗読もやっていましたが、全て県大会予選落ち。
+                </p>
+            </section>
+            <section class="block" id="skills">
+                <h2>Skills</h2>
+                <p>
+                    (得意とは言っていない)<br />
+                    (ちょっと触っただけなやつも含む)
+                </p>
+                <h3>プログラミング言語+α</h3>
+                <p>
+                    JavaScript<br />
+                    Java<br />
+                    Smile Basic for 3DS<br />
+                    HTML<br />
+                    CSS
+                </p>
+                <h3>ソフトウェア</h3>
+                <p>
+                    DaVinci Resolve 17
+                </p>
+                <h3>資格</h3>
+                <p>
+                    基本情報技術者試験
                 </p>
             </section>
             <section class="block" id="creations">
@@ -44,7 +72,8 @@
                     うわああ<br />
                     うわああ<br />
                     うわああ<br />
-                    うわああ
+                    うわああ<br />
+                    文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字
                 </p>
             </section>
             <section class="block" id="contact">
