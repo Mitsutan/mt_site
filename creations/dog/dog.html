@@ -30,8 +30,8 @@
 
             fetch("text.json").then(response => { return response.json(); })
                 .then(txtdata => {
-                    //text.innerHTML = txtdata;
-                    console.log(txtdata);
+                    text.innerHTML = txtdata[Math.random() * 3].txt;
+                    //console.log(txtdata);
                 });
         
         };
