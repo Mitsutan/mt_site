@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+        <title>犬</title>
+    </head>
+    <body>
+        <img id="img" src="" width="300px"/><br />
+        <p>"<span id="text">生成をクリック</span>"</p>
+        <button id="btn" onclick="generate()">生成</button>
+    </body>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const img = document.getElementById("img");
+        const text = document.getElementById("text");
+
+        function generate() {
+            btn.disabled = true;
+
+            fetch("https://dog.ceo/api/breeds/image/random").then(response => { return response.json(); })
+                .then(myjson => {
+                    img.src = myjson["message"];
+
+                    if (myjson["status"] == "success") {
+                        btn.disabled = false;
+                    }
+                });
+
+            fetch("text.json").then(response => { return response.json(); })
+                .then(txtdata => {
+                    //text.innerHTML = txtdata;
+                    console.log(txtdata);
+                });
+        
+        };
+    </script>
+</html>
