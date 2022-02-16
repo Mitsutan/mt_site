@@ -19,7 +19,7 @@
 
         function generate() {
             var id = Math.random() * 3;
-    
+            console.log(id);
 
             btn.disabled = true;
 
@@ -36,6 +36,7 @@
                 .then(txtdata => {
                     //const txt = JSON.parse(txtdata);
                     text.innerHTML = txtdata[id].txt;
+                    
                     //console.log(txtdata);
                 });
         
