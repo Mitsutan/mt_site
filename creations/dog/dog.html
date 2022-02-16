@@ -34,8 +34,8 @@
 
             fetch("text.json").then(response => { return response.json(); })
                 .then(txtdata => {
-                    const txt = JSON.parse(txtdata);
-                    text.innerHTML = txt[id].txt;
+                    //const txt = JSON.parse(txtdata);
+                    text.innerHTML = txtdata[id].txt;
                     //console.log(txtdata);
                 });
         
