@@ -15,9 +15,11 @@
         const btn = document.getElementById("btn");
         const img = document.getElementById("img");
         const text = document.getElementById("text");
+        const jsontxt;
 
         function generate() {
             var id = Math.random() * 3;
+    
 
             btn.disabled = true;
 
@@ -32,7 +34,8 @@
 
             fetch("text.json").then(response => { return response.json(); })
                 .then(txtdata => {
-                    text.innerHTML = txtdata[id].txt;
+                    jsontxt = JSON.parse(txtdata);
+                    text.innerHTML = jsontxt[id].txt;
                     //console.log(txtdata);
                 });
         
