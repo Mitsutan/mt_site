@@ -34,7 +34,9 @@
                     img.src = myjson["message"];
 
                     if (myjson["status"] == "success") {
-                        text.innerHTML = getedTXT;
+                        img.addEventListener("load", (e)=> {
+                            text.innerHTML = getedTXT;
+                        });
                         btn.disabled = false;
                     }
                 });
