@@ -3,5 +3,5 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} (iPhone|Android.*Mobile|Windows.*Phone) [NC]
 RewriteCond %{QUERY_STRING} !mode=pc
-RewriteRule ^$ /SP.html [R,L]
+RewriteRule ^$ https://mitsutan.github.io/mt_site/SP.html [R,L]
 </IfModule>
