@@ -7,7 +7,7 @@ body{
     background: -webkit-linear-gradient(top, #b87ca4, #615b7e 60%,#1f355b); 
     background: linear-gradient(to bottom,#b87ca4, #615b7e 60%,#1f355b); 
     font-family: "游ゴシック", "ヒラギノ角ゴ ProN", "MS Pゴシック", sans-serif;
-    font-size: 2vw;
+    font-size: 2vmin;
 }
 
 a.index{
@@ -18,7 +18,7 @@ a.index{
 
 .index{
     position: absolute;
-    font-size: 4vw;
+    font-size: 4vmin;
     left: 10%;
     line-height: 50%;
     border-left-style: solid;
@@ -46,17 +46,17 @@ footer#end{
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 5vmin;
 }
 
 h2{
     text-underline-offset: 0.2em;
     text-decoration-line: underline;
-    font-size: 4vw;
+    font-size: 4vmin;
 }
 
 h3{
-    font-size: 3vw;
+    font-size: 3vmin;
 }
 
 div#contents{
